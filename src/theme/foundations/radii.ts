@@ -1,0 +1,18 @@
+export const radii = {
+  none: '0',
+  circle: '50%',
+  four: '4px',
+  eight: '8px',
+  ten: '10px',
+  twelve: '12px',
+  sixteen: '16px',
+  br18: '18px',
+  br20: '20px',
+  br24: '24px',
+  br26: '26px',
+  br32: '32px',
+  forty: '40px',
+  br60: '60px',
+  br100: '100px',
+  br200: '200px',
+};

@@ -1,0 +1,57 @@
+export type Color = keyof typeof colors;
+
+export const colors = {
+  neutral1: '#FFFFFF',
+  neutral2: '#F7F7F7',
+  neutral3: '#EEEFF2',
+  neutral4: '#E0E3E7',
+  neutral5: '#AAB0B9',
+  neutral6: '#778089',
+  neutral7: '#474D52',
+  neutral8: '#363A3E',
+  neutral9: '#14171A',
+  neutral10: '#0A0C0D',
+  neutral12: '#0B0B0B',
+  neutral100: '#F5F6FC',
+  neutral101: '#F5F6FD',
+  neutral200: '#E9EBF7',
+  neutral300: '#D5D9E8',
+  neutral400: '#B5B8CB',
+  neutral500: '#9C9EB8',
+  neutral600: '#80829C',
+  neutral700: '#676A85',
+  neutral800: '#4D4F66',
+  neutral900: '#34364D',
+  neutral950: '#17192B',
+  neutral1000: '#0D1438',
+  neutral1100: '#090D21',
+
+  blue1: '#F6F7FF',
+  blue2: '#e3e7fc',
+  blue3: '#c5cefa',
+  blue4: '#4361ee',
+  blue5: '#3c57d6',
+  blue6: '#364ebe',
+  blue7: '#3249b3',
+  blue8: '#283a8f',
+  blue9: '#1e2c6b',
+  blue10: '#172253',
+
+  success: '#23B164',
+  error: '#F85A69',
+
+  black: '#000000',
+  black0: '#212529',
+  black100: '#02122E',
+  black200: '#09041C',
+
+  primary1: '#A6ADBB',
+  primary2: '#30343c',
+  primary3: '#A6ADBB99',
+  primary4: '#2a303c',
+
+  pink1: '#D926AA',
+
+  inherit: 'inherit',
+  transparent: 'transparent',
+};
