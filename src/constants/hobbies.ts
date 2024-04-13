@@ -2,6 +2,7 @@ import { FaChessQueen } from 'react-icons/fa';
 import { FaFilm } from 'react-icons/fa';
 import { FaPlane } from 'react-icons/fa';
 import { FaVolleyballBall } from 'react-icons/fa';
+import { GiBoxingGlove } from 'react-icons/gi';
 
 export const HOBBIES_LIST = [
   {
@@ -10,9 +11,9 @@ export const HOBBIES_LIST = [
     description: "I unwind with a game of chess—it's my go-to hobby for relaxation and mental stimulation.",
   },
   {
-    Icon: FaFilm,
-    title: 'Movies & Series',
-    description: 'I have spent thousands of hours watching movies and series.',
+    Icon: GiBoxingGlove,
+    title: 'Boxing',
+    description: 'Recently started boxing and absolutely loving it',
   },
   {
     Icon: FaPlane,
