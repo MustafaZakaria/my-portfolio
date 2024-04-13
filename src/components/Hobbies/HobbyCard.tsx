@@ -11,12 +11,14 @@ const HobbyCard: React.FC<HobbyCardProps> = ({ Icon, title, description }) => {
   return (
     <Flex w='100%' alignItems='center' justifyContent='center'>
       <Flex alignItems='center' gap='1rem'>
-        <Icon size={64} />
+        <Icon color='white' size={64} />
         <Flex flexDir='column'>
           <Text textStyle='h6-primary' color='neutral1' fontWeight={700}>
             {title}
           </Text>
-          <Text maxW='16.1875rem'>{description}</Text>
+          <Text textStyle='body-14' color='neutral1' maxW='16.1875rem'>
+            {description}
+          </Text>
         </Flex>
       </Flex>
     </Flex>
