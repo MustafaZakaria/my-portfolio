@@ -7,8 +7,17 @@ import Services from '../Services';
 
 const HomePageLanding = () => {
   return (
-    <Box backgroundColor='#191d24' minH={MIN_HEIGHT_FOLD}>
-      <Flex flexDir='column' w='100%' maxW='64rem' mx='auto' alignItems='center' px='1rem' justifyContent='center'>
+    <Box backgroundColor='primary0' minH={MIN_HEIGHT_FOLD}>
+      <Flex
+        id='home'
+        flexDir='column'
+        w='100%'
+        maxW='64rem'
+        mx='auto'
+        alignItems='center'
+        px='1rem'
+        justifyContent='center'
+      >
         <MyProfile />
         <Achievements />
         <Services />

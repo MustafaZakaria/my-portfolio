@@ -1,8 +1,7 @@
 import { Flex, Text } from '@chakra-ui/react';
 import Image from 'next/image';
-import React from 'react';
-import SocialMedia from '../common/SocialMedia';
 import DownloadCV from '../DownloadCV';
+import SocialMedia from '../common/SocialMedia';
 
 const MyProfile = () => {
   return (
@@ -26,7 +25,7 @@ const MyProfile = () => {
             <SocialMedia />
           </Flex>
           <Text color='primary1'>
-            Passionate full-stack developer with 3 years of experience in the field. I specialize in building robust and
+            Passionate full-stack developer with 4 years of experience in the field. I specialize in building robust and
             scalable web and mobile applications using various technologies and frameworks.
           </Text>
           <Flex mt='1.5rem'>

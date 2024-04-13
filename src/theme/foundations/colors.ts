@@ -45,6 +45,7 @@ export const colors = {
   black100: '#02122E',
   black200: '#09041C',
 
+  primary0: '#191d24',
   primary1: '#A6ADBB',
   primary2: '#30343c',
   primary3: '#A6ADBB99',

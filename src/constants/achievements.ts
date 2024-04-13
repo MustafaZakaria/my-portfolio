@@ -1,7 +1,7 @@
 export const ACHIEVEMENTS = [
   {
     name: 'Experience',
-    description: '+4 yrs',
+    description: '+3 yrs',
     text: 'Nov. 2020',
   },
   {
