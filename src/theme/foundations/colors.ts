@@ -50,6 +50,7 @@ export const colors = {
   primary2: '#30343c',
   primary3: '#A6ADBB99',
   primary4: '#2a303c',
+  primary5: '#191D24',
 
   pink1: '#D926AA',
 

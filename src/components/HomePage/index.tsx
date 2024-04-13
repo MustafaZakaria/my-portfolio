@@ -5,6 +5,8 @@ import MyProfile from '../MyProfile';
 import Achievements from '../Achievements';
 import Services from '../Services';
 import Skills from '../Skills';
+import Projects from '../Projects';
+import Hobbies from '../Hobbies';
 
 const HomePageLanding = () => {
   return (
@@ -24,6 +26,8 @@ const HomePageLanding = () => {
         <Achievements />
         <Services />
         <Skills />
+        <Projects />
+        <Hobbies />
       </Flex>
     </Box>
   );
