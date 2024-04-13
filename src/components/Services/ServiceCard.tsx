@@ -23,7 +23,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ name, description, Icon }) =>
       <Text textStyle='h6-primary' mt='0.5rem' fontWeight={700} color='neutral1'>
         {name}
       </Text>
-      <Text textAlign='center' mt='0.5rem' color='neutral1'>
+      <Text textStyle='body-16' textAlign='center' mt='0.5rem' color='neutral1'>
         {description}
       </Text>
     </Flex>

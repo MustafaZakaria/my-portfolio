@@ -16,6 +16,7 @@ const HomePageLanding = () => {
         mx='auto'
         alignItems='center'
         px='1rem'
+        pb='2rem'
         justifyContent='center'
       >
         <MyProfile />
