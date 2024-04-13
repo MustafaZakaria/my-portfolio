@@ -4,6 +4,7 @@ import { MIN_HEIGHT_FOLD } from '../../utils/sizings';
 import MyProfile from '../MyProfile';
 import Achievements from '../Achievements';
 import Services from '../Services';
+import Skills from '../Skills';
 
 const HomePageLanding = () => {
   return (
@@ -22,6 +23,7 @@ const HomePageLanding = () => {
         <MyProfile />
         <Achievements />
         <Services />
+        <Skills />
       </Flex>
     </Box>
   );
