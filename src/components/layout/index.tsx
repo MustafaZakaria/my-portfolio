@@ -2,6 +2,7 @@ import type { Color } from '@/theme/foundations/colors';
 import { Box } from '@chakra-ui/react';
 import type { FC, PropsWithChildren } from 'react';
 import Header from '../common/Header';
+import FooterWithLinks from '../common/Footer';
 
 interface LayoutProps extends PropsWithChildren {
   title?: string;
@@ -16,7 +17,7 @@ const Layout: FC<LayoutProps> = ({ children, title, description, backgroundColor
       {/* <MetaTags title={title} description={description} /> */}
       <Header />
       <main>{children}</main>
-      {/* <FooterWithLinks /> */}
+      <FooterWithLinks />
     </Box>
   );
 };

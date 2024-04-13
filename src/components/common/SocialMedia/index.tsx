@@ -1,5 +1,6 @@
 import Github from '@/components/svgs/Github';
 import LinkedIn from '@/components/svgs/LinkedIn';
+import { SocialMediaLink } from '@/constants/socialMedia';
 import { Flex } from '@chakra-ui/react';
 import Link from 'next/link';
 import { useState } from 'react';
@@ -7,12 +8,12 @@ import { useState } from 'react';
 const SOCIAL_MEDIA_LINKS = [
   {
     name: 'github',
-    link: 'https://github.com/MustafaZakaria1',
+    link: SocialMediaLink.Github,
     Icon: Github,
   },
   {
     name: 'linkedin',
-    link: 'https://www.linkedin.com/in/mustafa-zakaria-807a6a156/',
+    link: SocialMediaLink.Linkedin,
     Icon: LinkedIn,
   },
 ];
