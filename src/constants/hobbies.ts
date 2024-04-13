@@ -22,7 +22,7 @@ export const HOBBIES_LIST = [
   },
   {
     Icon: FaVolleyballBall,
-    title: 'Chess',
+    title: 'Volleyball',
     description: 'For 12 years as a professional, volleyball was my passion.',
   },
 ];
