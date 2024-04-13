@@ -1,4 +1,4 @@
-import { scrollToSection } from '@/utils/scroll';
+import { scrollToSection, scrollToTop } from '@/utils/scroll';
 import { Box, Flex, Heading, Link, Spacer } from '@chakra-ui/react';
 import NextLink from 'next/link';
 import { useState, useEffect } from 'react';
@@ -40,7 +40,7 @@ const Header = () => {
       zIndex={999}
     >
       <Flex maxW='container.xl' mx='auto' justifyContent='space-between' alignItems='center' h='100%'>
-        <Link as='span' onClick={() => scrollToSection('home')}>
+        <Link as='span' onClick={() => scrollToTop()}>
           <Heading size='md' color='primary1'>
             My portfolio
           </Heading>

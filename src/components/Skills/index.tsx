@@ -5,7 +5,7 @@ import { skillsData } from '@/constants/skills';
 const Skills = () => {
   return (
     <Flex
-      id='services'
+      id='skills'
       w='100%'
       flexDir='column'
       alignItems='center'
