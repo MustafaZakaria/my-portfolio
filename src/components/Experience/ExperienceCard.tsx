@@ -63,7 +63,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ date, title, Icon, desc
         left={index % 2 === 0 ? '100%' : 0}
         transform={index % 2 === 0 ? 'translate(30%,-50%)' : 'translate(-130%,-50%)'}
       >
-        <FaRegBookmark size={24} />
+        <FaRegBookmark size={24} color='white' />
       </Flex>
     </Flex>
   );

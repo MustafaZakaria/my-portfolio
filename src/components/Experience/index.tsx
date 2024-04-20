@@ -62,7 +62,7 @@ const Experience = () => {
               left='50%'
               transform='translateX(-50%)'
             >
-              <ImHome size={24} />
+              <ImHome size={24} color='white' />
             </Flex>
             <Flex
               display={{ base: 'none', md: 'flex' }}
