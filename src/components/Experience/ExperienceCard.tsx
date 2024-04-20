@@ -25,7 +25,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ date, title, Icon, desc
     >
       <Flex flexDir='column'>
         <Flex width='100%' justifyContent='space-between' alignItems='center'>
-          <Text color='neutral0' textStyle='h6-primary' fontWeight={700}>
+          <Text color='neutral1' textStyle='h6-primary' fontWeight={700}>
             {title}
           </Text>
           <Flex
@@ -43,7 +43,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ date, title, Icon, desc
             </Text>
           </Flex>
         </Flex>
-        <Text mt='.25rem' color='neutral0' textStyle='body-14'>
+        <Text mt='.25rem' color='neutral1' textStyle='body-14'>
           {description}
         </Text>
       </Flex>
