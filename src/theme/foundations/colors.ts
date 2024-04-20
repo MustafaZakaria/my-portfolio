@@ -54,6 +54,8 @@ export const colors = {
 
   pink1: '#D926AA',
 
+  purple1: '#6a1fd2',
+
   inherit: 'inherit',
   transparent: 'transparent',
 };

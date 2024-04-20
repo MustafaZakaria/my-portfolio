@@ -17,14 +17,16 @@ const MyProfile = () => {
           />
         </Flex>
         <Flex maxW='27.875rem' flexDir='column'>
-          <Text color='primary1'>Hi, I&apos;m</Text>
+          <Text color='primary1' textStyle='body-16'>
+            Hi, I&apos;m
+          </Text>
           <Text textStyle='h6-primary' fontWeight={700} color='primary1'>
             Mustafa Zakaria
           </Text>
           <Flex py='0.5rem'>
             <SocialMedia />
           </Flex>
-          <Text color='primary1'>
+          <Text color='primary1' textStyle='body-16'>
             Passionate full-stack developer with 4 years of experience in the field. I specialize in building robust and
             scalable web and mobile applications using various technologies and frameworks.
           </Text>

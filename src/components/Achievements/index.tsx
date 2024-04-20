@@ -25,7 +25,9 @@ const Achievements = () => {
             p='1rem 1.5rem'
             minW='8.1875rem'
           >
-            <Text color='primary3'>{name}</Text>
+            <Text color='primary3' textStyle='body-16'>
+              {name}
+            </Text>
             <Text textStyle='h4-primary' color='primary1' fontWeight={700}>
               {description}
             </Text>

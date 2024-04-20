@@ -1,5 +1,6 @@
 import Github from '@/components/svgs/Github';
 import LinkedIn from '@/components/svgs/LinkedIn';
+import UpWork from '@/components/svgs/Upwork';
 import { SocialMediaLink } from '@/constants/socialMedia';
 import { Flex } from '@chakra-ui/react';
 import Link from 'next/link';
@@ -15,6 +16,11 @@ const SOCIAL_MEDIA_LINKS = [
     name: 'linkedin',
     link: SocialMediaLink.Linkedin,
     Icon: LinkedIn,
+  },
+  {
+    name: 'upwork',
+    link: SocialMediaLink.UpWork,
+    Icon: UpWork,
   },
 ];
 const SocialMedia = () => {

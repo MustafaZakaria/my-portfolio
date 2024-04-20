@@ -1,4 +1,4 @@
-import { Button } from '@chakra-ui/react';
+import { Button, Text } from '@chakra-ui/react';
 import React from 'react';
 import { IoDocumentTextOutline } from 'react-icons/io5';
 
@@ -12,7 +12,7 @@ const DownloadCV = () => {
   return (
     <Button onClick={handleDownloadCV} style={{ display: 'flex', alignItems: 'center' }}>
       <IoDocumentTextOutline style={{ marginRight: '0.5rem' }} />
-      Download CV
+      <Text textStyle='body-16'>Download CV</Text>
     </Button>
   );
 };

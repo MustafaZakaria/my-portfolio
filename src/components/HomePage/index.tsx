@@ -1,12 +1,13 @@
-import { Box, Flex, Text } from '@chakra-ui/react';
-import React from 'react';
+import { Box, Flex } from '@chakra-ui/react';
 import { MIN_HEIGHT_FOLD } from '../../utils/sizings';
-import MyProfile from '../MyProfile';
 import Achievements from '../Achievements';
+import Experience from '../Experience';
+import Hobbies from '../Hobbies';
+import MyProfile from '../MyProfile';
+import Projects from '../Projects';
 import Services from '../Services';
 import Skills from '../Skills';
-import Projects from '../Projects';
-import Hobbies from '../Hobbies';
+import ContactMe from '../ContactMe';
 
 const HomePageLanding = () => {
   return (
@@ -28,6 +29,8 @@ const HomePageLanding = () => {
         <Skills />
         <Projects />
         <Hobbies />
+        <Experience />
+        <ContactMe />
       </Flex>
     </Box>
   );

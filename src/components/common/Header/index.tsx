@@ -41,19 +41,26 @@ const Header = () => {
     >
       <Flex maxW='container.xl' mx='auto' justifyContent='space-between' alignItems='center' h='100%'>
         <Link as='span' onClick={() => scrollToTop()}>
-          <Heading size='md' color='primary1'>
+          <Heading fontFamily='Titillium' size='md' color='primary1'>
             My portfolio
           </Heading>
         </Link>
         <Flex display={{ base: 'none', md: 'flex' }}>
           {NAV_LINKS.map(link => (
-            <Link key={link} color='primary1' as='span' mr='1.5rem' onClick={() => scrollToSection(link.toLowerCase())}>
+            <Link
+              fontFamily='Titillium'
+              key={link}
+              color='primary1'
+              as='span'
+              mr='1.5rem'
+              onClick={() => scrollToSection(link.toLowerCase())}
+            >
               {link}
             </Link>
           ))}
         </Flex>
         <Box>
-          <Link color='primary1' fontWeight={700} as='span' mr='4'>
+          <Link color='primary1' fontFamily='Titillium' fontWeight={700} as='span' mr='4'>
             Contact
           </Link>
         </Box>
