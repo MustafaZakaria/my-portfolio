@@ -77,7 +77,7 @@ const Experience = () => {
               left='50%'
               transform='translateX(-50%)'
             >
-              <CiStop1 size={24} />
+              <CiStop1 size={24} color='white' />
             </Flex>
 
             <ExperienceCard index={index} {...experience} />
