@@ -7,7 +7,7 @@ export const EXPERIENCES = [
   {
     date: '2014',
     title: 'High School',
-    description: 'Graduated from high school with 95%',
+    description: 'Graduated from Mokattam language school',
     Icon: BiSolidSchool,
   },
   {
