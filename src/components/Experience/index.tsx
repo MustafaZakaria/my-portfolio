@@ -87,7 +87,7 @@ const Experience = () => {
               justifyContent='center'
               mt='2rem'
             >
-              <FaArrowTurnDown />
+              <FaArrowTurnDown color='white' />
             </Flex>
           </Flex>
         ))}
