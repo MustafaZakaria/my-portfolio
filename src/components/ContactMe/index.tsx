@@ -4,6 +4,7 @@ const emailAddress = 'mustafazakaria365@gmail.com';
 const ContactMe = () => {
   return (
     <Flex
+      id='contact'
       borderRadius='.5rem'
       minH='25rem'
       mt={{ base: '3rem', md: '5rem' }}

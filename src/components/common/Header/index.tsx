@@ -1,7 +1,6 @@
 import { scrollToSection, scrollToTop } from '@/utils/scroll';
-import { Box, Flex, Heading, Link, Spacer } from '@chakra-ui/react';
-import NextLink from 'next/link';
-import { useState, useEffect } from 'react';
+import { Box, Flex, Heading, Link } from '@chakra-ui/react';
+import { useEffect, useState } from 'react';
 
 const NAV_LINKS = ['Services', 'Skills', 'Projects', 'Hobbies'];
 
@@ -60,7 +59,14 @@ const Header = () => {
           ))}
         </Flex>
         <Box>
-          <Link color='primary1' fontFamily='Titillium' fontWeight={700} as='span' mr='4'>
+          <Link
+            color='primary1'
+            fontFamily='Titillium'
+            fontWeight={700}
+            as='span'
+            mr='4'
+            onClick={() => scrollToSection('contact')}
+          >
             Contact
           </Link>
         </Box>
