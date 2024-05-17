@@ -25,7 +25,7 @@ export const PROJECTS_LIST = [
       'Dashboard for mobile game designed specifically for kids and tweens, aiming to instill healthy habits and promote overall well-being. <br/> <br/>With a focus on balanced nutrition, regular physical activity, and quality sleep, BoomeranGO! offers an engaging and educational experience that empowers young players to lead healthier lifestyles.',
     date: '2022-2023',
     noOfPeople: '1-5 people',
-    technologies: 'Next.js, Node.js, MySQL, Firebase',
+    technologies: 'Next.js, NestJS, MySQL, Firebase',
   },
   {
     name: 'Evergrowth',
@@ -36,10 +36,10 @@ export const PROJECTS_LIST = [
       alt: 'arft',
     },
     description:
-      'Dashboard for mobile game designed specifically for kids and tweens, aiming to instill healthy habits and promote overall well-being. <br/> <br/>With a focus on balanced nutrition, regular physical activity, and quality sleep, BoomeranGO! offers an engaging and educational experience that empowers young players to lead healthier lifestyles.',
+      'Evergrowth specializes in optimizing outbound sales processes within organizations. Leveraging their expertise, they adeptly design and implement efficient sales machinery encompassing tools, processes, and personnel.<br/> <br/>They meticulously craft key performance indicators (KPIs) and performance metrics to gauge effectiveness, ensuring alignment with organizational objectives.',
     date: '2022-2024',
     noOfPeople: '1-5 people',
-    technologies: 'Next.js, Node.js, Postgres, Firebase, Docker',
+    technologies: 'Next.js, NestJS, Postgres, Firebase, Docker',
   },
   {
     name: 'Digiklase',
@@ -53,7 +53,7 @@ export const PROJECTS_LIST = [
       "Innovative online platform revolutionizing the way students engage with learning materials and educational content. By seamlessly integrating digital technology with traditional teaching methods.<br/><br/> DigiKlase empowers educators to create dynamic and interactive learning experiences that cater to the diverse needs of today's students.",
     date: '2022-2023',
     noOfPeople: '1-2 people',
-    technologies: 'Next.js, Node.js, MySQL, Dailyjs, Socket.IO',
+    technologies: 'Next.js, NestJS, MySQL, Dailyjs, Socket.IO',
   },
   {
     name: 'Check Me',
@@ -67,7 +67,7 @@ export const PROJECTS_LIST = [
       'Check me is a marketplace mobile application that provides on-demand blood sampling services via multiple partner labs, offering a timely service within a two-hour window from the moment of booking.',
     date: '2020-2021',
     noOfPeople: '1-5 people',
-    technologies: 'Node.js, React Native, Socket.io, Firebase, Redis, DigitalOcean',
+    technologies: 'Sails.js, React Native, React, Socket.io, Firebase, Redis, DigitalOcean',
   },
   {
     name: 'Insurance Bee',
@@ -81,6 +81,6 @@ export const PROJECTS_LIST = [
       'A modern cargo insurance platform tailored for businesses of all sizes. The self-service application simplifies the insurance process, guiding users through selecting the appropriate plan and generating certificates effortlessly. Whether shipping goods domestically or internationally, Insurance Bee ensures comprehensive coverage for all shipments.',
     date: '2023-2024',
     noOfPeople: '1-4 people',
-    technologies: 'Next.js, Nest.Js, Postgres, Socket.IO, Firebase, Docker',
+    technologies: 'Next.js, NestJS, Postgres, Socket.IO, Firebase, Docker',
   },
 ];
