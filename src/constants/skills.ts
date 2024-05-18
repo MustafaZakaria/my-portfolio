@@ -5,6 +5,7 @@ export const skillsData = [
   { name: 'Node.js', level: 'Advanced' },
   { name: 'Git & Github', level: 'Advanced' },
   { name: 'Docker', level: 'Medium' },
-  { name: 'React Native', level: 'Medium' },
-  { name: 'PostgreSQL', level: 'Medium' },
+  { name: 'React Native', level: 'Advanced' },
+  { name: 'PostgreSQL', level: 'Advanced' },
+  { name: 'Redux', level: 'Advanced' },
 ];
